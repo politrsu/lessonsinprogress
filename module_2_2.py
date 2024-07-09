@@ -5,7 +5,7 @@ third = int(input('Введите третье число:'))
 
 if first == second and second == third:
       print('3')
-elif first == second or first == third or second == third:
+elif first in (second, third):
       print('2')
 else:
       print('0')
